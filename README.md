@@ -1,12 +1,21 @@
-# React + Vite
+# ENTNT Technical Assignment
+Created a ship maintenance dashboard-frontend only and simulated all data interactions using local storage only.
+Use the credentials,
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Email: admin@entnt.in
+Password: admin123
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Deliverables
+- [Deployed Application Link](https://entnt-nu.vercel.app/)
+- [Github Repository Link](https://github.com/rajatanwar00/ENTNT)
 
-## Expanding the ESLint configuration
+## Setup
+No setup is required
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Architecture
+Created 4 redux-slices namely ship, component, jobs, user and required thunk files to manage states across the components in react.
+
+## Limitations
+- Responsive Website, in development
+- Integration of maintenance calendar
